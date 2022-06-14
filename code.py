@@ -10,19 +10,19 @@ if date == 'day':
     if m <= 12:
         ded = calendar.weekday(y, m, d)
         if ded == 0:
-            print("Monday")
+            print("That day was Monday")
         elif ded == 1:
-            print("Tuesday")
+            print("That day was Tuesday")
         elif ded == 2:
-            print("Wednesday")
+            print("That day was Wednesday")
         elif ded == 3:
-            print("Thursday")
+            print("That day was Thursday")
         elif ded == 4:
-            print("Friday")
+            print("That day was Friday")
         elif ded == 5:
-            print("Saturday")
+            print("That day was Saturday")
         elif ded == 6:
-            print("Sunday")
+            print("That day was Sunday")
 
     else:
         print("This month doesn't exist!")
