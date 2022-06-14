@@ -8,7 +8,22 @@ if date == 'day':
     m = int(input('Enter a month: '))
     d = int(input('Enter a day: '))
     if m <= 12:
-        print(calendar.weekday(y, m, d))
+        ded = calendar.weekday(y, m, d)
+        if ded == 0:
+            print("Monday")
+        elif ded == 1:
+            print("Tuesday")
+        elif ded == 2:
+            print("Wednesday")
+        elif ded == 3:
+            print("Thursday")
+        elif ded == 4:
+            print("Friday")
+        elif ded == 5:
+            print("Saturday")
+        elif ded == 6:
+            print("Sunday")
+
     else:
         print("This month doesn't exist!")
     print()
